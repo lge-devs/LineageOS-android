@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="LineageOS2"  fetch="https://github.com/LineageOS/" />
+  <remote name="omnirom2"    fetch="https://github.com/omnirom/" />
+  <remote name="Cyborg2017"  fetch="https://github.com/lge-z-dev/" />
+
+<!-- TWRP -->
+<!--  <project name="android_bootable_recovery" path="bootable/recovery-twrp" remote="omnirom2" revision="android-8.1"/>  -->
+
+<!-- Busybox -->
+  <project name="android_external_busybox" path="external/busybox" remote="LineageOS2" revision="lineage-15.1" />
+
+<!-- Device Files -->
+  <project name="android_device_lge_z-common" path="device/lge/z-common"  remote="Cyborg2017" revision="lineage-15.1" />
+  <project name="android_device_lge_f340l"    path="device/lge/f340l"     remote="Cyborg2017" revision="lineage-15.1" />
+  <project name="android_device_lge_d950"     path="device/lge/d950"      remote="Cyborg2017" revision="lineage-15.1" />
+  <project name="android_device_lge_d955"     path="device/lge/d955"      remote="Cyborg2017" revision="lineage-15.1" />
+  <project name="android_kernel_lge_d959"     path="kernel/lge/d959"      remote="LineageOS2" revision="lineage-15.1" />
+  <project name="android_device_lge_ls995"    path="device/lge/ls995"     remote="Cyborg2017" revision="lineage-15.1" />
+  <project name="android_kernel_lge_l23"      path="kernel/lge/l232"      remote="LineageOS2" revision="lineage-15.1" />
+
+<!-- Other Important Things from CM -->
+  <project name="android_device_qcom_common"  path="device/qcom/common" remote="LineageOS2" revision="lineage-15.1" />
+  <project name="android_external_stlport"    path="external/stlport"   remote="LineageOS2" revision="lineage-15.1" />
+  <project name="android_external_sony_boringssl-compat"    path="external/sony/boringssl-compat" remote="LineageOS2" revision="lineage-15.1" />
+  <project name="android_packages_apps_FlipFlap"            path="packages/apps/FlipFlap" remote="LineageOS2" revision="lineage-15.1" />
+  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="LineageOS2" revision="lineage-15.1" />
+
+</manifest>
