@@ -17,8 +17,9 @@
   <project name="android_device_lge_d950"     path="device/lge/d950"      remote="Cyborg2017" revision="lineage-15.1" />
   <project name="android_device_lge_d955"     path="device/lge/d955"      remote="Cyborg2017" revision="lineage-15.1" />
   <project name="android_kernel_lge_d959"     path="kernel/lge/d959"      remote="LineageOS2" revision="lineage-15.1" />
-  <project name="android_device_lge_ls995"    path="device/lge/ls995"     remote="Cyborg2017" revision="lineage-15.1" />
-  <project name="android_kernel_lge_l23"      path="kernel/lge/l232"      remote="LineageOS2" revision="lineage-15.1" />
+<!--  <project name="android_device_lge_ls995"    path="device/lge/ls995"     remote="Cyborg2017" revision="lineage-15.1" />
+  <project name="android_kernel_lge_l23"      path="kernel/lge/l232"      remote="Cyborg2017" revision="lineage-15.1" />  -->
+  <project name="proprietary_vendor_lge_zee "      path="proprietary/vendor/lge"      remote="Cyborg2017" revision="lineage-15.1" />
 
 <!-- Other Important Things from CM -->
   <project name="android_device_qcom_common"  path="device/qcom/common" remote="LineageOS2" revision="lineage-15.1" />
