@@ -7,15 +7,15 @@
   <remote name="treble-dev"  fetch="https://github.com/lge-devs/" />
 
 <!-- Device Files -->
-  <project name="android_device_lge_g3-common" path="device/lge/g3-common"  remote="treble-dev" revision="treble" />
-  <project name="android_device_lge_f400"    path="device/lge/f400"     remote="treble-dev" revision="treble" />
+  <project name="android_device_lge_g3-common" path="device/lge/g3-common"  remote="treble-dev" revision="treble-vndk-current" />
+  <project name="android_device_lge_f400"    path="device/lge/f400"     remote="treble-dev" revision="treble-vndk-current" />
   <project name="android_kernel_lge_g3"     path="kernel/lge/g3"      remote="treble-dev" revision="treble" />
   <project name="proprietary_vendor_lge"      path="vendor/lge"      remote="TheMuppets" revision="lineage-15.1" /> 
 
 <!-- Qcom HALs -->
-<!--  <project name="hardware_qcom_audio"  path="hardware/qcom/audio-caf/msm8974" remote="Qcom-Hals" revision="8974-treble" />
+  <project name="hardware_qcom_audio"  path="hardware/qcom/audio-caf/msm8974" remote="Qcom-Hals" revision="8974-treble" />
   <project name="hardware_qcom_media"    path="hardware/qcom/media-caf/msm8974"   remote="Qcom-Hals" revision="8974-treble" />
-  <project name="hardware_qcom_display"    path="hardware/qcom/display-caf/msm8974" remote="Qcom-Hals" revision="8974-treble" />  --> 
+  <project name="hardware_qcom_display"    path="hardware/qcom/display-caf/msm8974" remote="Qcom-Hals" revision="8974-treble" />
 
 <!-- Other Important Things from CM -->
   <project name="android_device_qcom_common"  path="device/qcom/common" remote="LineageOS2" revision="lineage-15.1" />
@@ -23,5 +23,8 @@
   <project name="android_external_sony_boringssl-compat"    path="external/sony/boringssl-compat" remote="LineageOS2" revision="lineage-15.1" />
   <project name="android_packages_apps_FlipFlap"            path="packages/apps/FlipFlap" remote="LineageOS2" revision="lineage-15.1" />
   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="LineageOS2" revision="lineage-15.1" />
+
+<!-- Addition -->
+  <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="treble-dev" revision="treble-vndk-current" />
 
 </manifest>
