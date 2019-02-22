@@ -1,4 +1,4 @@
-Build LineageOS-15.1 For LG G FLEX
+Build LineageOS-15.1 Treble For LG G3
 ===========
 
 Getting started
@@ -9,7 +9,7 @@ familiar with [Repo](https://source.android.com/source/using-repo.html) and [Ver
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 ```
-repo init -u git://github.com/lge-z-dev/LineageOS-android.git -b lineage-15.1
+repo init -u git://github.com/lge-z-dev/LineageOS-android.git -b treble
 ```
 Then to sync up:
 ```
