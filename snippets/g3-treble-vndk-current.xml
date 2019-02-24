@@ -25,6 +25,8 @@
   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="LineageOS2" revision="lineage-15.1" />
 
 <!-- Addition -->
-  <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="treble-dev" revision="treble-vndk-current" />
+  <project name="android_hardware_lineage_interfaces" path="hardware/lineage/interfaces" remote="treble-dev" revision="treble-vndk-current" >
+    <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
+  </project>
 
 </manifest>
