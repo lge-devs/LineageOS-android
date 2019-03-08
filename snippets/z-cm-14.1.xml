@@ -3,7 +3,7 @@
 
   <remote name="LineageOS2"  fetch="https://github.com/LineageOS/" />
   <remote name="omnirom2"    fetch="https://github.com/omnirom/" />
-  <remote name="Cyborg2017"  fetch="https://github.com/lge-z-dev/" />
+  <remote name="Cyborg2017"  fetch="https://github.com/lge-devs/" />
 
 <!-- TWRP -->
 <!--  <project name="android_bootable_recovery" path="bootable/recovery-twrp" remote="omnirom2" revision="android-8.1"/>  -->
